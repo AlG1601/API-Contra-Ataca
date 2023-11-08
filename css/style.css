@@ -1,0 +1,15 @@
+.single-product {
+    height: 356px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.single-product:hover {
+    transition: 0.5s;
+    border-color: #ffba00;
+    box-shadow: 0px 0px 25px 5px #888888;
+}
+
+.single-product:hover .title {
+    color: #FFBA00;
+}
